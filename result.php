@@ -1,59 +1,27 @@
-<?php
-include_once 'header.php';
-
-?>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
-
-        <section class="main-container">
-            <div class="main-wrapper">
-                <h2>Events</h2>
-                
-                
-                
-                <br>
-                  <br>
-                    <br>
-                    <script>
-                    $(document).ready(function(){
-                    $("button").click(function(){
-                    $(".test").flip (3000);
-                          });
-                    });
-                    </script>
-                    <center><button><img class="test" src="IMG/download.png"></button></center> 
-                    
-                    <?php
-                    if (isset($_SESSION['u_id'])) {
-                        echo "You are logged in";
-                        
-                    }
-                    
-                    ?>
-                    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <link   href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
 </head>
  
-                    
 <body>
     <div class="container">
             <div class="row">
-                <h3>These are our upcoming events</h3>
+                <h3>These are our coming events</h3>
             </div>
             <div class="row">
                 <p>
-                    <a href="create.php" class="btn btn-success">Create new event</a>
+                    <a href="create.php" class="btn btn-success">Create</a>
                 </p>
                  
                 <table class="table table-striped table-bordered">
                       <thead>
                         <tr>
-                          <th>Name Event</th>
-                          <th>Chef</th>
-                          <th>Date</th>
+                          <th>Name</th>
+                          <th>Email Address</th>
+                          <th>Mobile Number</th>
                           <th>Action</th>
                         </tr>
                       </thead>
@@ -83,7 +51,4 @@ include_once 'header.php';
         </div>
     </div> <!-- /container -->
   </body>
-<?php
-include_once 'footer.php';
-
-?>
+</html>

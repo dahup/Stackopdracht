@@ -9,7 +9,11 @@ include_once 'header.php';
             <div class="main-wrapper">
                 <h2>Aanmelden</h2>
                 
+                <center> <br>
                 
+                Onder constructie
+                
+                </center>
                 
                 <br>
                   <br>
