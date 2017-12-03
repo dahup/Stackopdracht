@@ -36,12 +36,12 @@ include_once 'header.php';
      
                 <div class="span10 offset1">
                     <div class="row">
-                        <h3>Read a Customer</h3>
+                        <h3>Read an Event</h3>
                     </div>
                      
                     <div class="form-horizontal" >
                       <div class="control-group">
-                        <label class="control-label">Name</label>
+                        <label class="control-label">Name event</label>
                         <div class="controls">
                             <label class="checkbox">
                                 <?php echo $data['name'];?>
@@ -49,7 +49,7 @@ include_once 'header.php';
                         </div>
                       </div>
                       <div class="control-group">
-                        <label class="control-label">Email Address</label>
+                        <label class="control-label">Chef</label>
                         <div class="controls">
                             <label class="checkbox">
                                 <?php echo $data['email'];?>
@@ -57,7 +57,7 @@ include_once 'header.php';
                         </div>
                       </div>
                       <div class="control-group">
-                        <label class="control-label">Mobile Number</label>
+                        <label class="control-label">Date</label>
                         <div class="controls">
                             <label class="checkbox">
                                 <?php echo $data['mobile'];?>

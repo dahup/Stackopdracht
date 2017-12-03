@@ -21,7 +21,7 @@ include_once 'header.php';
                     <script>
                     $(document).ready(function(){
                     $("button").click(function(){
-                    $(".test").flip (3000);
+                    $(".test") .slideToggle (3000);
                           });
                     });
                     </script>

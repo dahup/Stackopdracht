@@ -8,7 +8,7 @@ include_once 'header.php';
 
         <section class="main-container">
             <div class="main-wrapper">
-                <h2>Home</h2>
+                <h2>BBQ Gedoe</h2>
                 
                 
                 

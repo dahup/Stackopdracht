@@ -23,7 +23,7 @@ include_once 'header.php';
         $q = $pdo->prepare($sql);
         $q->execute(array($id));
         Database::disconnect();
-        header("Location: index.php");
+        header("Location: events.php");
          
     }
 ?>

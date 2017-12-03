@@ -37,9 +37,9 @@ include_once 'header.php';
                         </div>
                       </div>
                       <div class="control-group <?php echo !empty($mobileError)?'error':'';?>">
-                        <label class="control-label">Datum</label>
+                        <label class="control-label">Date</label>
                         <div class="controls">
-                            <input name="mobile" type="text"  placeholder="Datum" value="<?php echo !empty($mobile)?$mobile:'';?>">
+                            <input name="mobile" type="text"  placeholder="Date" value="<?php echo !empty($mobile)?$mobile:'';?>">
                             <?php if (!empty($mobileError)): ?>
                                 <span class="help-inline"><?php echo $mobileError;?></span>
                             <?php endif;?>
