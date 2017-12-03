@@ -1,6 +1,5 @@
 <?php
 include_once 'header.php';
-
 ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -8,7 +7,7 @@ include_once 'header.php';
 
         <section class="main-container">
             <div class="main-wrapper">
-                <h2>Home</h2>
+                <h2>Aanmelden</h2>
                 
                 
                 
@@ -18,11 +17,11 @@ include_once 'header.php';
                     <script>
                     $(document).ready(function(){
                     $("button").click(function(){
-                    $(".test").slideToggle(3000);
+                    $(".test").flip (3000);
                           });
                     });
                     </script>
-                    <center><button><img class="test" src="IMG/rook.png"></button></center> 
+                    <center><button><img class="test" src="IMG/download.png"></button></center> 
                     
                     <?php
                     if (isset($_SESSION['u_id'])) {
@@ -36,5 +35,4 @@ include_once 'header.php';
         </section>
 <?php
 include_once 'footer.php';
-
 ?>
