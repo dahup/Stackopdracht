@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Login System</title>
+	<title>BBQ</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
         <head>
         <script src="jquery-3.2.1.min.js"></script>

@@ -5,14 +5,9 @@
         <group>
             <file>file:/C:/xampp/htdocs/Stackopdracht/result.php</file>
             <file>file:/C:/xampp/htdocs/Stackopdracht/style.css</file>
-            <file>file:/C:/xampp/htdocs/Stackopdracht/read.php</file>
-            <file>file:/C:/xampp/htdocs/Stackopdracht/Events.php</file>
             <file>file:/C:/xampp/htdocs/Stackopdracht/index.php</file>
-            <file>file:/C:/xampp/htdocs/Stackopdracht/Aanmelden.php</file>
-            <file>file:/C:/xampp/htdocs/Stackopdracht/signup.php</file>
-            <file>file:/C:/xampp/htdocs/Stackopdracht/update.php</file>
             <file>file:/C:/xampp/htdocs/Stackopdracht/delete.php</file>
-            <file>file:/C:/xampp/htdocs/Stackopdracht/create.php</file>
+            <file>file:/C:/xampp/htdocs/Stackopdracht/header.php</file>
         </group>
     </open-files>
 </project-private>
