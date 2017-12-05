@@ -1,13 +1,10 @@
 <?php
 include_once 'header.php';
 ?>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
 
         <section class="main-container">
             <div class="main-wrapper">
-                <h2>Aanmelden</h2>
+                <h2>Contact</h2>
                 
                 <center> <br>
                 
